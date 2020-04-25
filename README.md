@@ -1,7 +1,15 @@
 ValueObject
 ===========
 
-ValueObject is a micro library for easily creating C# classes with value semantics. The library provides an abstract base class that overrides Equals, GetHashCode, and the `==` and `!=` operators. It also implements IEquatable.
+ValueObject is a micro library for easily creating C#/VB classes with value semantics. The library provides an abstract base class that overrides Equals, GetHashCode, and the `==` and `!=` operators. It also implements IEquatable.
+
+Install
+------------
+The library is provided as a [NuGet package](https://www.nuget.org/packages/ValueObject/). To install, run the following command in your package manager console:
+
+```
+Install-Package ValueObject
+```
 
 Use
 ------------
