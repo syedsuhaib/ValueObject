@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.6.1</Version>
     <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/jhewlett/ValueObject</PackageProjectUrl>
     <PackageTags>DDD value equality Equals IEquatable GetHashCode</PackageTags>
-    <Description>A micro library for easily creating C# classes with value semantics. No need to override Equals, GetHashCode, et all.</Description>
+    <Description>A micro library for easily creating C#/VB classes with value semantics. No need to override Equals, GetHashCode, et all.</Description>
   </PropertyGroup>
 </Project>
